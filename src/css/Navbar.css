@@ -1,0 +1,19 @@
+.links{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+.navbar{
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+li{
+ margin-left: 5%;
+ list-style-type: none;
+}

@@ -1,0 +1,41 @@
+.cont{
+    margin-top: 100px;
+    /* margin-left: 300px; */
+}
+
+.course{
+    display: grid;
+    grid-template-columns: 50px 150px;
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    width: 70%;
+    height: 70px;
+    background-color:azure
+}
+
+.title{
+    font-size: larger;
+}
+
+.providers
+{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    margin-left: 150px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.myinfo{
+    margin-left: 50px;
+}
+.data{
+    border: 1px solid black;
+    margin-top: 10%;
+    width: 100%;
+}
+.photo{
+    height: 100%;
+}

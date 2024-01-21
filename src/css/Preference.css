@@ -1,0 +1,47 @@
+/* QuestionnairePage.css */
+.questionnaire-container {
+    max-width: 400px;
+    margin: 100px auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .label-group label {
+    margin-right: 16px;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
